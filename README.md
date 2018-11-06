@@ -12,9 +12,7 @@ Flash Player API
 
 
 ##  Relationship between an API and a SDK
-An API as alliterated under the API heading, is a series of related methods (a specification) intended to be used for a specific purpose and as an interface by software components to communicate with eachother. Whilst an SDK is just a sample of how you would interact with said APIs
-
-essentially a collation of API's 
+An API as alliterated under the API heading, is a series of related methods (a specification) intended to be used for a specific purpose and as an interface by software components to communicate with eachother. Whilst an SDK is just a sample of how you would interact with said APIs and essentially a collation of API's 
 
 
 
