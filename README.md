@@ -12,15 +12,9 @@ Flash Player API
 
 
 ##  Relationship between an API and a SDK
-An API as alliterated under the API heading, is a series of related methods (a specification) intended to be used for a specific purpose and as an interface by software components to communicate with eachother. Whilst an SDK is just a sample of how you would interact with said APIs 
-
-allows you to set the parameters of say a print method 
-
-dont directly access the api good security measure as you cant modify the code etc.
+An API as alliterated under the API heading, is a series of related methods (a specification) intended to be used for a specific purpose and as an interface by software components to communicate with eachother. Whilst an SDK is just a sample of how you would interact with said APIs, Thus the relationship between an API and SDK can be seen through theses definitions as an SDK is used as a buffer to access collate and communicate with the APIs. Through using this method (SDK) it essentailly blocks access to the code thus improving the security measures as the API cannot be tampered with. Whilst if the Print function (API) in python (SDK) is taken as an example it allows you to set the parameters of say a print method that are pre-defined, meaning that there is no thought proccess required in how to achieve or do that.Although because the parameters and functions are pre-determened, it may be seen as both an advantage and limitation as what is feasable is decieded by the programmer of that API. 
 
 
-
-and essentially a collation of API's 
 
 
 
