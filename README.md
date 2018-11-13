@@ -16,13 +16,8 @@ An API as alliterated under the API heading, is a series of related methods (a s
 
 ## Platform use of API's and Comparision 
 
-API's have a broad range, meaning that there are multiple API's for numerous tasks.However API's are generally native, meaning that the API is language specific and the code is directly executing abstract functionality. Although an API can also define a protocol for accessing that same functionality, as stated each language generally has there own API with pre-defined methods to meet a specific purpose. The way inwhich the same API functions across each platform/language differs, this is fudementally due to the type of programming, structure, intended purpose when formulated and overall functionality. The ideology behind for instance an 'random number generator API' is to make it easier to produce random numbers or create the illusion of numbers generating in a random fashion.
+API's have a broad range, meaning that there are multiple API's for numerous tasks.However API's are generally native, meaning that the API is language specific and the code is directly executing abstract functionality. Although an API can also define a protocol for accessing that same functionality, as stated each language generally has there own API with pre-defined methods to meet a specific purpose. The way inwhich the same API functions across each platform/language differs, this is fudementally due to the type of programming, structure, intended purpose when formulated and overall functionality. The ideology behind for instance an 'random number generator API' is to make it easier to produce random numbers or create the illusion of numbers generating in a random fashion, this is the ideology regardless of the language. In C++ the 'random number generator API'
 
-though as stated each language generally has there own API with pre-defined methods to meet a specific purpose. For instance the Random number generator API
-
-
-
-API can also define a protocol for accessing that same functionality
 
 
 
