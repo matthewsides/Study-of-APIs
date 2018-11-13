@@ -16,11 +16,11 @@ An API as alliterated under the API heading, is a series of related methods (a s
 
 ## Platform use of API's and Comparision 
 
-In relation to a platform or language an API is generally native, meaning that the API is language specific and the code is directly executing abstract functionality. However an API can also define a protocol for accessing that same functionality, though generally each language has there own API with pre-defined methods to meet a specific purpose. For instance the Random number generator API 
+API's have a broad range, meaning that there are multiple API's for numerous tasks.However API's are generally native, meaning that the API is language specific and the code is directly executing abstract functionality. Although an API can also define a protocol for accessing that same functionality, as stated each language generally has there own API with pre-defined methods to meet a specific purpose. The way inwhich the same API functions across each platform/language differs, this is fudementally due to the types of programming languages,structure, intended purpose when formulated and overall functionality.
+
+though as stated each language generally has there own API with pre-defined methods to meet a specific purpose. For instance the Random number generator API
 
 
-
-API's have a broad range, meaning that there are multiple API's for numerous tasks. 
 
 API can also define a protocol for accessing that same functionality
 
