@@ -22,6 +22,9 @@ API's have a broad range, meaning that there are multiple API's for numerous tas
 In C++ the 'rng API' returns a pseudo-random integral number in the range between 0 and RAND_MAX. The 'random number generator API' uses a seed to generate the series, which should be initialized to some distinctive value using function srand.
 
 
+## Security issues pertaining to API's
+
+
 
 
 
