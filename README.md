@@ -20,6 +20,11 @@ API's have a broad range, meaning that there are multiple API's for numerous tas
 
 In C++ the 'rng API' returns a pseudo-random integral number in the range between 0 and RAND_MAX. The 'random number generator API' uses a seed to generate the series, which should be initialized to some distinctive value using the function srand. The Srand function a native function to the stdlib.h libary is 
 
+
+
+
+rand() does is use an algorithm to generate a random number. The problem is that the algorithm is always the same, so the random number generated is always the same.
+
 ## Security issues pertaining to API's
 
 
