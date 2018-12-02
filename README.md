@@ -21,9 +21,9 @@ API's have a broad range, meaning that there are multiple API's for numerous tas
 In C++ the 'rng API' returns a pseudo-random integral number in the range between 0 and RAND_MAX. The 'random number generator API' uses a seed to generate the series, which should be initialized to some distinctive value using the function srand(), generating the pseudo-random numbers using the rand() function. If srand() is not called, the rand() seed is set and interpreted as if srand(1) were called at the program start. Any other value for seed sets the generator to a different starting point.
 
 
-RAND_MAX is specified with a minimum value of 32,767. Portable code cannot assume that the range is any larger than this, so portable code is very limited in the random numbers that can be predictably generated. 
+The issues that stem form using the rng API is that the RAND_MAX function has a minimum specified value of 32,767. Portable code cannot assume that the range is any larger than this, so portable code is very limited in the random numbers that can be predictably generated. 
 
- First and foremost, rand is not required to conform to any standard distribution. Typically, the base random number generator is expected to return values in a uniform distribution. That is, every number in the range is equally likely to be returned for any given request. Even when rand claims a uniform distribution, it may not be a terribly good distribution, which greatly affects any attempts to adjust the range.
+Moreover since rand is not required to conform to any standard distribution, the base random number generator is expected to return values in a uniform distribution. Thus meaning that every number in the range is equally likely to be returned for any given request. Even when rand claims a uniform distribution, it may not be a terribly good distribution, which greatly affects any attempts to adjust the range.
 
 ## Security issues pertaining to API's
 
