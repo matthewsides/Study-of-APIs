@@ -24,8 +24,7 @@ In C++ the 'rng API', a programming API, returns a pseudo-random integral number
 
 Incontrast to C++ 'rng API',Javas terminology (labelling) of functions is different with 'rand()'  called 'Random()' and 'Srand' called Random(long seed),etc.Although there is no distinction in the proccess or ideology behind the functions a number is still generated ('Random()') and required to be seeded prior to generation.
 
-Python however functions differently to both Java and C++ with regards to the proccess used for generating a random number. In addition to the evident change in terminology and libary imported (Python uses 'random',C++ uses '' and Java '').The generation of a random number rather then segregated into seperate lines, is primarily initialised or set on one line, with Python intepreting the type meaning that it is not required to explicitly declare the data types of variables, in comparision to Java's and C++ approach of requiring  
-the scope to be defined inside a type definition before generation.Though Python is still capable of forcing the type if necessary. 
+Python however functions differently to both Java and C++ with regards to the proccess used for generating a random number. In addition to the evident change in terminology and libary imported (Python uses 'random',C++ uses '' and Java '').The generation of a random number rather then segregated into seperate lines, is primarily initialised or set on one line, with Python intepreting the type, meaning that it is not required to explicitly declare the data types of variables, in comparision to Java's and C++ approach of requiring the scope to be defined inside a type definition before generation.Though Python is still capable of forcing the type if necessary. 
 
 As python requires the variable type to be defined,
 
