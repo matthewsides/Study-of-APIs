@@ -29,7 +29,7 @@ Python however functions differently to both Java and C++ with regards to the pr
 ## Security issues pertaining to API's
 
 
-####unused work(work written but removed as unsure if required):
+#### unused work(work written but removed as unsure if required):
 
 The issues that stem from using the rng API is that the RAND_MAX function has a minimum specified value of 32,767. Portable code cannot assume that the range is any larger than this, so portable code is very limited in the random numbers that can be predictably generated. 
 
