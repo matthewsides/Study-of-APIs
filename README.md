@@ -20,7 +20,7 @@ API's have a broad range, meaning that there are multiple API's for numerous tas
 
 In C++ the 'rng API', a programming API, returns a pseudo-random integral number in the range between 0 and RAND_MAX. The 'random number generator API' uses a seed to generate the series, which should be initialized to some distinctive value using the function srand(), generating the pseudo-random numbers using the rand() function. If srand() is not called, the rand() seed is set and interpreted as if srand(1) were called at the program start. Any other value for seed sets the generator to a different starting point.
 
-Incontrast to C++ 'rng API',Javas distinction of the rand function is different, as although the overall purpose is the same (to  produce random numbers).
+Incontrast to C++ 'rng API',Javas terminology (labelling) of functions is different with 'rand()'  called 'Random()' in java, although there is no  distinction 
 
 
 The issues that stem from using the rng API is that the RAND_MAX function has a minimum specified value of 32,767. Portable code cannot assume that the range is any larger than this, so portable code is very limited in the random numbers that can be predictably generated. 
