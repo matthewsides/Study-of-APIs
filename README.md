@@ -20,7 +20,7 @@ API's have a broad range, meaning that there are multiple API's for numerous tas
 
 The ideology behind for instance an 'random number generator API' is to make it easier (manipulate software) to produce random numbers or create the illusion of numbers generating in a random fashion, this is the ideology regardless of the language. 
 
-In C++ the 'rng API', a programming API, returns a pseudo-random integral number in the range between 0 and RAND_MAX. The 'random number generator API' uses a seed to generate the series, which should be initialized to some distinctive value using the function ‘srand()’, generating the pseudo-random numbers using the ‘rand()’ function. If srand() is not called, the rand() seed is set and interpreted as if srand(1) were called at the program start. Any other value for the seed sets the generator to a different starting point.
+In C++ the 'cstdlib API', a programming API, returns a pseudo-random integral number in the range between 0 and RAND_MAX. The 'cstdlib API' uses a seed to generate the series, which should be initialized to some distinctive value using the function ‘srand()’, generating the pseudo-random numbers using the ‘rand()’ function. If srand() is not called, the rand() seed is set and interpreted as if srand(1) were called at the program start. Any other value for the seed sets the generator to a different starting point.
 
 In contrast to C++ 'rng API', Javas terminology (labelling) of functions is different with 'rand()'  called 'Random()' and 'Srand' called ‘Random(long seed)’,etc. Although there is no distinction in the process or ideology behind the functions a number is still generated ('Random ()') and required to be seeded prior to generation.
 
