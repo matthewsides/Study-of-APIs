@@ -26,25 +26,14 @@ Incontrast to C++ 'rng API',Javas terminology (labelling) of functions is differ
 
 Python however functions differently to both Java and C++ with regards to the proccess used for generating a random number. In addition to the evident change in terminology and libary imported (Python uses 'random',C++ uses '' and Java ''), the generation of a random number rather then segregated into seperate lines, is primarily initialised or set on one line. Whilst Python intepretes the type, meaning that it is not required to explicitly declare the data types of variables, in comparision to Java's and C++ approach of requiring the scope to be defined inside a type definition before generation.Though Python is still capable of forcing the type if necessary. Moreover unlike C++ or Java that uses two seperate functions that sets a seed (start state)) along with a pre-defined max integer that work in correlation, Python defines a range stored in brackets on the same line the random function is called on.
 
+## Security issues pertaining to API's
 
 
-
-
-
-
-
-
-
-
+####unused work(work written but removed as unsure if required):
 
 The issues that stem from using the rng API is that the RAND_MAX function has a minimum specified value of 32,767. Portable code cannot assume that the range is any larger than this, so portable code is very limited in the random numbers that can be predictably generated. 
 
 Moreover since rand is not required to conform to any standard distribution, the base random number generator is expected to return values in a uniform distribution. Thus meaning that every number in the range is equally likely to be returned for any given request. Even when rand claims a uniform distribution, it may not be a terribly good distribution, which greatly affects any attempts to adjust the range.
-
-## Security issues pertaining to API's
-
-
-
 
 
 
