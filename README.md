@@ -38,6 +38,8 @@ Images below detail the conceptual designs for the games UI, opting to garner in
 The first design illustrates a menu in which the camera would be in constant motion,looping around and following a mapped path in which the start and end would meet, rather than manual transformation forcing the camera to a specific position. The reason behind opting to use a connected path rather than a line which upon completion teleports the camera back to the start is to give it a smoother transistion.
 
 
+This wireframe is the second iteration of the menu, used to diversify the options in regards to menu layout and functionality.
+
 Following the outline of the application, development 
 
 
