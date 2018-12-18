@@ -10,12 +10,10 @@ Google Maps API
 
 Flash Player API
 
-
 ##  Relationship between an API and a SDK
 An API as stated under the API heading, is a series of related methods (a specification) intended to be used for a specific purpose and as an interface by software components to communicate with each other. Whilst an SDK is just a sample of how you would interact with said APIs, Thus the relationship between an API and SDK can be seen through theses definitions as an SDK is used as a buffer to access collate and communicate with the APIs. Through using this method (SDK) it essentially blocks access to the code thus improving the security measures as the API cannot be tampered with. Whilst if the Print function (API) in python (SDK) is taken as an example it allows you to set the parameters of say a print method that are pre-defined, meaning that there is no thought process required in how to achieve or do that. Although because the parameters and functions are pre-determined, it may be seen as both an advantage and limitation as what is feasible is decided by the programmer of that API.
 
 ## Platform use of API's and Comparision 
-
 API's have a broad range, meaning that there are multiple API's for numerous tasks. However, API's are generally native, meaning that the API is language specific and the code is directly executing abstract functionality. Although an API can also define a protocol for accessing that same functionality, as stated each language generally has their own API with pre-defined methods to meet a specific purpose. The way in which the same API functions across each platform/language differs, this is fundamentally due to the type of programming, structure, intended purpose when formulated and overall functionality. 
 
 The ideology behind for instance an 'random number generator API' is to make it easier (manipulate software) to produce random numbers or create the illusion of numbers generating in a random fashion, this is the ideology regardless of the language. 
@@ -27,11 +25,10 @@ In contrast to C++ 'cstdlib API', Javas terminology (labelling) of functions is 
 Python however functions differently to both Java and C++ with regards to the process used for generating a random number. In addition to the evident change in terminology and library imported (Python uses 'random’, C++ uses 'cstdlib' and Java the 'java.util.Random class'), the generation of a random number rather than spread across separate lines, is primarily initialised or set on one line. Whilst Python interprets the type, meaning that it is not required to explicitly declare the data types of variables, in comparison to Java's and C++ approach of requiring the scope to be defined inside a type definition before generation. Though Python is still capable of forcing the type if necessary. Moreover, unlike C++ or Java that uses two separate functions that sets a seed (start state) along with a pre-defined max integer that work in correlation, Python defines a range stored in brackets on the same line the random function is called on.
 
 
-### API Application Consideration
-
+## Prisma
 Prisma is an conceptual third person shooter or action game formulated around the ideology that current third person action or shooters have become too reliant on cover systems and hold or are plagued with a lack off depth. The scope of this application encompasses, primarily though not limited too those whom enjoy third person games in particular those relating to the shooter and action genres respectively. Moreover based on the Pan European Game Information (PEGI) Rating system and due to the core nature of the game being a third person action or shooter presenting visible violence, the game is likely to fall under the catagory of a 12 or 16 plus game, meaning that the audience will be restricted to 12 or 16 and above.
 
-With regards to platform or system compatability, the current plans are for the game to be based and developed for PC only. This is primarily due to time contraints, though it will also allow for controller input, meaning that the game can be played with a controller in addition to the keyboard and mouse.
+With regards to platform or system compatability, the current plans are for the game to be based and developed to be playable on PC compatible computers as a desktop application. This is primarily due to time contraints, though it will also allow controller input, meaning that the game can be played with a controller in addition to the keyboard and mouse, catering to those who usually play games via console.
 
 
 Images below detail the conceptual designs for the games UI, opting to garner inspiration from Franchises such as Halo and 
@@ -43,7 +40,7 @@ The first design illustrates a menu in which the camera would be in constant mot
 This wireframe is the second iteration of the menu, used to diversify the options in regards to menu layout and functionality.
 
 Following the outline of the application, development 
-
+### API Application Consideration
 
 
 
