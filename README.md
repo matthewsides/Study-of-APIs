@@ -42,6 +42,9 @@ This wireframe is the second iteration of the menu, used to diversify the option
 ### API Application Consideration
 
 
+### IDE and Implementation
+
+
 
 
 
