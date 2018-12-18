@@ -29,7 +29,7 @@ Python however functions differently to both Java and C++ with regards to the pr
 
 ### API Application Consideration
 
-Prisma is an conceptual third person shooter formulated around the ideology that third person games have become too reliant on cover systems. The scope of this application encompasses primarily though not limited too those whom enjoy the Third person shooter genre.
+Prisma is an conceptual third person shooter or action game formulated around the ideology that current third person action or shooters have become too reliant on cover systems and hold no depth or are plague with a lack off. The scope of this application encompasses primarily though not limited too those whom enjoy third person games in particular those relating to the shooter and action genres respectively.
 
 
 Images below detail the conceptual designs for the games UI, opting to garner inspiration from Franchises such as Halo and 
