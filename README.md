@@ -29,7 +29,7 @@ Python however functions differently to both Java and C++ with regards to the pr
 
 ### API Application Consideration
 
-Prisma is an conceptual third person shooter or action game formulated around the ideology that current third person action or shooters have become too reliant on cover systems and hold or are plagued with a lack off depth. The scope of this application encompasses, primarily though not limited too those whom enjoy third person games in particular those relating to the shooter and action genres respectively. Moreover based on the Pega Rating system and due to the core nature of the game being a third person action or shooter presenting visible violence, 
+Prisma is an conceptual third person shooter or action game formulated around the ideology that current third person action or shooters have become too reliant on cover systems and hold or are plagued with a lack off depth. The scope of this application encompasses, primarily though not limited too those whom enjoy third person games in particular those relating to the shooter and action genres respectively. Moreover based on the Pan European Game Information (PEGI) Rating system and due to the core nature of the game being a third person action or shooter presenting visible violence, the game is likely to fall under the catagory of a 12 or 16 plus game, meaning that the audience will be restricted to 12 or 16 and above.
 
 
 Images below detail the conceptual designs for the games UI, opting to garner inspiration from Franchises such as Halo and 
