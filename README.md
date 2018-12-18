@@ -39,10 +39,10 @@ The first design illustrates a menu in which the camera would be in constant mot
 
 This wireframe is the second iteration of the menu, used to diversify the options in regards to menu layout and functionality.
  
-### API Application Consideration
+### API and IDE Application Consideration
 
 
-### IDE and Implementation
+### Implementation
 
 
 
