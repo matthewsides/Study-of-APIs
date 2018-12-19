@@ -42,7 +42,7 @@ This wireframe is the second iteration of the menu, used to diversify the option
 ### API and Development enviroment for an Application 
 For the purpose of this project the API that was decided upon was the scripting API provided by Unity. Unitys Scripting API pertaining to various API's (UnityEditor, UnityEngine, Unity) grouped by namespaces. The central API being used for the development is the Unity Engine, enabling access to features that can support the development and formulation of scripts.
 
-Following the choice of API leads into the choice of the development enviroment, as the API is relative to the Unity engine it only makes sense to use Unity. The inconnectivity of the API and development enviroment was the main drive behind utilising both.In addition to Unitys intuitive interface, access to numerous turtorials and vast amount of tools and API's (free scripts) avaliable. 
+Following the choice of API leads into the choice of the development enviroment, as the API is relative to the Unity engine it only makes sense to use Unity. The inconnectivity of the API and development enviroment was the main drive behind utilising both.In addition to Unitys intuitive interface, access to numerous turtorials and vast amount of tools and API's (free scripts) avaliable. Although Unity was not the only development enviroment taken into consideration with the Unreal engine, , also a possibility. Though due to the ___ ,___ and ___ Unity was eventually decided upon.
 
 ### Implementation
 
