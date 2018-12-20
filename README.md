@@ -46,6 +46,9 @@ Following the choice of API leads into the choice of the development enviroment,
 
 ### Implementation
 
+An iteration of the game was developed, as seen below, this prototype includes object collision, movement and a prototype camera.In relation to Unitys Scripting API the camera utilises the Quaternion
+
+
 
 
 
