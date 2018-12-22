@@ -88,15 +88,15 @@ White Box - This form of testing refers to testing the functionality being aware
 Black Box - This testing relates to using user's whom know nothing about the internal structure of the code, with the functions being tested purely based on visual. 
 
 |Tester: Luke Bruni|
-|--------|
-|Test Reference No.|
-|--------|
-|1.      |
-|2.      |
-|3A.     |
-|3B.     |
-|4.      |
-|5.      |
+
+|Tester: Luke Bruni|Test Reference No.|
+|------------------|--------|
+|                  |1.      |
+|                  |2.      |
+|                  |3A.     |
+|                  |3B.     |
+|                  |4.      |
+|                  |5.      |
 
 
 Biblography
