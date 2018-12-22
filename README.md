@@ -33,11 +33,13 @@ With regards to platform or system compatability, the current plans for the game
 
 Images below detail the conceptual designs for the games UI, opting to garner inspiration from the franchise Halo a critically acclaimed video game series. 
 
+![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/Menu_Alternate.png?raw=true "Optional Title")
 
-The first design illustrates a menu in which the camera would be in constant motion,looping around and following a mapped path in which the start and end would meet, rather than manual transformation forcing the camera to a specific position. The reason behind opting to use a connected path rather than a line which upon completion teleports the camera back to the start is to give it a smoother transistion.
+The first design (shown above) illustrates a menu in which the camera would be in constant motion,looping around and following a mapped path in which the start and end would meet, rather than manual transformation forcing the camera to a specific position. The reason behind opting to use a connected path rather than a line which upon completion teleports the camera back to the start is to give it a smoother transistion.
 
+![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/Menu.png?raw=true "Optional Title")
 
-This wireframe is the second iteration of the menu, used to diversify the options in regards to menu layout and functionality.
+This wireframe (shown above) is the second iteration of the menu, used to diversify the options in regards to menu layout and functionality.
  
 ### API and Development enviroment for an Application 
 For the purpose of this project, the API that was decided upon was the scripting API provided by Unity (Unity,2018). Unitys Scripting API pertaining to various API's (UnityEditor, UnityEngine, Unity) grouped by namespaces. The central API being used for the development is the Unity Engine, enabling access to features that can support the development and formulation of scripts.
