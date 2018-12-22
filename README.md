@@ -78,7 +78,7 @@ White Box - This form of testing refers to testing the functionality being aware
 
 |Test Reference No.|
 |--------|
-|1.      |
+|1. API       |
 |2.      |
 |3A.     |
 |3B.     |
