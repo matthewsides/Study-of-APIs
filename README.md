@@ -46,7 +46,10 @@ Following the choice of API leads into the choice of the development enviroment,
 
 ### Implementation
 
-An iteration of the game was developed, as seen below, this prototype includes object collision, movement and a prototype camera.In relation to Unitys Scripting API the camera system utilises quaternion values and euler angles to represent the rotation and return the orientation (rigidbody) of the camera clamping the view based on private predefined values.
+An iteration of the game was developed, as seen below.
+
+![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaTP.png?raw=true "Optional Title")
+This prototype includes object collision, movement and a prototype camera.In relation to Unitys Scripting API the camera system utilises quaternion values and euler angles to represent the rotation and return the orientation (rigidbody) of the camera clamping the view based on private predefined values.
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/CameraClampEX.png?raw=true "Optional Title")
 
