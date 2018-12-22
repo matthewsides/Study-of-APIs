@@ -58,15 +58,17 @@ The access modifers also function in conjunction with Unitys software, meaning t
 
 <img src="https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaIV.png" width="200" height="400">
 
-Further delving into the ideology behind the camera system, an empty game object is attached to the playerobject, this is used as reference for the camera in regards to what it should follow. Whilst the collision aspect of the camera applies an occolusion detection system that zooms the camera in upon camera obstruction to ensure that the player character is always in view.
+Further delving into the ideology behind the camera system, an empty game object is attached to the playerobject, this is used as reference for the camera in regards to what it should follow. Whilst the collision aspect of the camera applies an occolusion detection system that zooms the camera in upon camera obstruction to ensure that the player character is always in view.Another aspect or element that is set to be implemented is upon collision with an object the mesh shall turn invisible, this should eliminate object clipping and is a mechanic inspired by a feature in the batman game franchise.
 
 Unity also includes pre-set colliders and rigid bodys, which were applied in order to simulate physics and collision, ensuring that the player did not Phase through Objects. The collider itself includes its own pre-set classess and is under the Unity Engine API. Although in this aspect no code has currently been used for collision, opting to use Unitys in-built collision detection system as a placeholder until further development.
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaEV.png?raw=true "Optional Title")
 
+The animations and objects were rigged to humanoid and intergrated through using Unity's Animator, which is an inbuilt tool and apart of Unity's Editor API, calling the animator in Visual studios to return a value depedning on whether a key has been pressed using a trigger (event) system.
 
+![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaEV.png?raw=true "Optional Title")
 
-
+![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaEV.png?raw=true "Optional Title")
 
 ### Testing
 
