@@ -66,7 +66,7 @@ Unity also includes pre-set colliders and rigid bodys, which were applied in ord
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaEV.png?raw=true "Optional Title")
 
-The animations and objects were rigged to humanoid and intergrated through using Unity's Animator, which is an inbuilt tool and apart of Unity's Editor API, calling the animator in Visual studios to return a value depending on whether a key has been pressed using a trigger (event) system.
+The animations and objects were rigged to humanoid and intergrated through using Unity's Animator, which is an inbuilt tool and apart of Unity's Engine API, calling the animator in Visual studios to return a value depending on whether a key has been pressed using a trigger (event) system.
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaAC.png?raw=true "Optional Title")
 
@@ -76,9 +76,9 @@ The animations and objects were rigged to humanoid and intergrated through using
 
 White Box - This form of testing refers to testing the functionality being aware of the internal structure.This was used to determine any issues in regards to functionality and allowed for fixes.
 
-|Test Reference No.|
-|--------|
-|1. API       |
+|Test Reference No.| Type of Test | Expected Result | Observed Result |
+|-------------------------------------------------|
+|1. API Imported correctly| White Box |The Scripting API (Unity Engine) defined at the start of the code should not display any errors in either the console or visual studios C# code upon using its features (classes and functions). | Passed - The API was successfully imported and its features functional.
 |2.      |
 |3A.     |
 |3B.     |
