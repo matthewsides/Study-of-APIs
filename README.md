@@ -78,7 +78,7 @@ White Box - This form of testing refers to testing the functionality being aware
 
 |Test Reference No.| Type of Test | Expected Result | Observed Result |
 |-------------------------------------------------|
-|1. API Imported correctly| White Box |The Scripting API (Unity Engine) defined at the start of the code should not display any errors in either the console or visual studios C# code upon using its features (classes and functions). | Passed - The API was successfully imported and its features functional.
+|1. API Imported correctly| White Box |The Scripting API (Unity Engine) defined at the start of the code should not display any errors in either the console or visual studios C# code upon using its features (classes and functions). | Passed - The API was successfully imported and its features functional. |
 |2.      |
 |3A.     |
 |3B.     |
