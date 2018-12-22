@@ -1,7 +1,7 @@
 # Study-of-APIs
 
 ## API
-An Application Programming Interface (API), is a specification intended to be used as an interface by software components to communicate with each other. An API may include specifications for pre-defined subroutines,classes,communication protocols, variables and is an integral tool for the development of software. Essentially, APIs are building blocks for potentional powerful solution capabilities, meaning an API for instance pertaining to the function of adding and subtracting numbers can be applied and imported into software unrelated allowing cross communication between programs and meaning that said programmers no longer have to bother with the logisitics behind or implementation of such a function. However, this is dependant on whether the API relates to the specification, functionality and design of the software,thus highlighting the importance of evaluating whether an API is suitable to said scenario. The example of an API that can subtract and add numbers would be usable if for instance the program or application being created was a calculator. 
+An Application Programming Interface (API), is a specification intended to be used as an interface by software components to communicate with each other. An API may include specifications for pre-defined subroutines,classes,communication protocols, variables and is an integral tool for the development of software (Beal, No date). Essentially, APIs are building blocks for potential powerful solution capabilities, meaning an API for instance pertaining to the function of adding and subtracting numbers can be applied and imported into software unrelated allowing cross communication between programs and meaning that said programmers no longer have to bother with the logisitics behind or implementation of such a function. However, this is dependant on whether the API relates to the specification, functionality and design of the software,thus highlighting the importance of evaluating whether an API is suitable to said scenario. The example of an API that can subtract and add numbers would be usable if for instance the program or application being created was a calculator (Peralman, 2016). 
 
 ### Examples of APIs:
 Java API
@@ -42,7 +42,7 @@ This wireframe is the second iteration of the menu, used to diversify the option
 ### API and Development enviroment for an Application 
 For the purpose of this project, the API that was decided upon was the scripting API provided by Unity (Unity,2018). Unitys Scripting API pertaining to various API's (UnityEditor, UnityEngine, Unity) grouped by namespaces. The central API being used for the development is the Unity Engine, enabling access to features that can support the development and formulation of scripts.
 
-Following the choice of API leads into the choice of the development enviroment, as the API is relative to the Unity engine it only makes sense to use Unity. The inconnectivity of the API and development enviroment was the main drive behind utilising both.In addition to Unitys intuitive interface, access to numerous turtorials and vast amount of tools and API's (free scripts) avaliable. Although Unity was not the only development enviroment taken into consideration with the Unreal engine,a complete suite of tools developed by Epic Games used primarily for the development of applications, also a possibility. Though due to the Unreal Engines sophisticated interface that doesn’t facilitate ease of use, lack of turtorials, Unitys improved graphics and lighting system  brought about through Unitys 2018f update and own experience using Unity, was eventually decided upon.
+Following the choice of API leads into the choice of the development enviroment, as the API is relative to the Unity engine it only makes sense to use Unity. The inconnectivity of the API and development enviroment was the main drive behind utilising both.In addition to Unitys intuitive interface, access to numerous turtorials and vast amount of tools and API's (free scripts) avaliable. Although Unity was not the only development enviroment taken into consideration with the Unreal engine,a complete suite of tools developed by Epic Games used primarily for the development of applications, also a possibility (Unreal Engine, 2004-2018). Though due to the Unreal Engines sophisticated interface that doesn’t facilitate ease of use, lack of turtorials, Unitys improved graphics and lighting system  brought about through Unitys 2018f update and own experience using Unity, was eventually decided upon.
 
 ### Implementation
 
@@ -57,14 +57,21 @@ An iteration of the game was developed, as seen below, this prototype includes o
 
 Biblography
 
+Beal. Vangie, (No date). API - application program interface. Available at: https://www.webopedia.com/TERM/A/API.html [Accessed: 17/11/2018].
+
 Cooper. Jackason, (2017). How to generate a random number. Available at:https://www.pythoncentral.io/how-to-generate-a-random-number-in-python/ [Accessed: 19/11/2018].
 
 Cplusplus.com, (no dtae). Function Rand. Available at: http://www.cplusplus.com/reference/cstdlib/rand/ {Accessed: 19/11/2018].
 
 Oracle.com (1997, 2018).Class Random. Available at: https://docs.oracle.com/javase/8/docs/api/java/util/Random.html [Accessed: 19/11/2018].
 
+Pearlman. Shana, (2016). What are APIs and how do APIs work? Available at: https://blogs.mulesoft.com/biz/tech-ramblings-biz/what-are-apis-how-do-apis-work/ [Accessed: 17/11/2018].
+
 Stackoverflow (2018). If I don't specify srand(), what seed does rand() use? Available at: https://stackoverflow.com/questions/14251452/if-i-dont-specify-srand-what-seed-does-rand-use [Accessed: 20/11/2018]
 
 Tutorials Point (No date). Java.util.Random Class. Availabale at: https://www.tutorialspoint.com/java/util/java_util_random.htm [Accessed: 18/11/2018].
 
 Unity Documentation, (2018). Scripting API.  Available at: https://docs.unity3d.com/ScriptReference/index.html [Accessed: 20/11/2018].
+
+Unreal Engine, (2004-2018).About Unreal Engine 4. Available at: https://www.unrealengine.com/en-US/features [Accessed: 17/11/2018].
+
