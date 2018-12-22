@@ -46,16 +46,24 @@ Following the choice of API leads into the choice of the development enviroment,
 
 ### Implementation
 
-An iteration of the game was developed, as seen below.
+An iteration of the game was developed, as seen below.This prototype includes object collision, movement and a prototype camera.
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaTP.png?raw=true "Optional Title")
 
-This prototype includes object collision, movement and a prototype camera.In relation to Unitys Scripting API the camera system utilises quaternion values and euler angles to represent the rotation and return the orientation (rigidbody) of the camera clamping the view based on private predefined values.
+In relation to Unitys Scripting API the camera system utilises quaternion values and euler angles to represent the rotation and return the orientation (rigidbody) of the camera clamping the view based on private predefined values.
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/CameraClampEX.png?raw=true "Optional Title")
 
+The access modifers also function in conjunction with Unitys software, meaning that all variables identified as Public can be accessed via the inspector, allowing the clamp angle, sensitivity, speed, etc. to be changed without the requirement of going into Visual studios.
 
-Moreover Unity includes a feature that
+
+
+
+
+
+
+Unity also includes pre-set colliders and rigid bodys, which in order to effciently 
+
 
 
 
