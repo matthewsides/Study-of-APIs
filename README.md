@@ -74,7 +74,7 @@ The animations and objects were rigged to humanoid and intergrated through using
 
 ### Testing
 
-White Box
+White Box - This form of testing refers to testing the functionality being aware of the internal structure.This was used to determine any issues in regards to functionality and allowed for fixes.
 
 |Test Reference No.|
 |--------|
@@ -85,9 +85,17 @@ White Box
 |4.      |
 |5.      |
 
-Black Box
+Black Box - This testing relates to using user's whom know nothing about the internal structure of the code, with the functions being tested purely based on visual. 
 
-
+|Tester: Luke Bruni|
+|Test Reference No.|
+|--------|
+|1.      |
+|2.      |
+|3A.     |
+|3B.     |
+|4.      |
+|5.      |
 
 
 Biblography
