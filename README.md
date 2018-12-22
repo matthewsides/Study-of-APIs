@@ -31,7 +31,7 @@ Prisma is a conceptual third person shooter or action game, formulated around th
 With regards to platform or system compatability, the current plans for the game entail developing it to be playable only on PC compatible computers as a desktop application.This is primarily due to time contraints, although the 'Prisma' will be controller compatible, meaning that the game can be played with a controller in addition to the keyboard and mouse, catering to those who usually play games via console.
 
 
-Images below detail the conceptual designs for the games UI, opting to garner inspiration from franchises such as Halo and 
+Images below detail the conceptual designs for the games UI, opting to garner inspiration from the franchise Halo a critically acclaimed video game series. 
 
 
 The first design illustrates a menu in which the camera would be in constant motion,looping around and following a mapped path in which the start and end would meet, rather than manual transformation forcing the camera to a specific position. The reason behind opting to use a connected path rather than a line which upon completion teleports the camera back to the start is to give it a smoother transistion.
