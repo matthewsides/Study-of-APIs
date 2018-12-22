@@ -58,6 +58,7 @@ The access modifers also function in conjunction with Unitys software, meaning t
 
 <img src="https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaIV.png" width="200" height="400">
 
+Further delving into the ideology behind the camera system, an empty game object is attached to the playerobject, this is used as reference for the camera in regards to what it should follow. Whilst the collision aspect of the camera applies an occolusion detection system that zooms the camera in upon camera obstruction to ensure that the player character is always in view.
 
 Unity also includes pre-set colliders and rigid bodys, which were applied in order to simulate physics and collision, ensuring that the player did not Phase through Objects. The collider itself includes its own pre-set classess and is under the Unity Engine API. Although in this aspect no code has currently been used for collision, opting to use Unitys in-built collision detection system as a placeholder until further development.
 
@@ -66,6 +67,8 @@ Unity also includes pre-set colliders and rigid bodys, which were applied in ord
 
 
 
+
+### Testing
 
 
 
