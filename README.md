@@ -55,6 +55,7 @@ In relation to Unitys Scripting API the camera system utilises quaternion values
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/CameraClampEX.png?raw=true "Optional Title")
 
 The access modifers also function in conjunction with Unitys software, meaning that all variables identified as Public can be accessed via the inspector, allowing the clamp angle, sensitivity, speed, etc. to be changed without the requirement of going into Visual studios.
+
 <img src="https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaIV.png" width="200" height="400">
 
 
