@@ -64,11 +64,11 @@ Unity also includes pre-set colliders and rigid bodys, which were applied in ord
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaEV.png?raw=true "Optional Title")
 
-The animations and objects were rigged to humanoid and intergrated through using Unity's Animator, which is an inbuilt tool and apart of Unity's Editor API, calling the animator in Visual studios to return a value depedning on whether a key has been pressed using a trigger (event) system.
+The animations and objects were rigged to humanoid and intergrated through using Unity's Animator, which is an inbuilt tool and apart of Unity's Editor API, calling the animator in Visual studios to return a value depending on whether a key has been pressed using a trigger (event) system.
 
-![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaEV.png?raw=true "Optional Title")
+![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaAC.png?raw=true "Optional Title")
 
-![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaEV.png?raw=true "Optional Title")
+![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaAR.png?raw=true "Optional Title")
 
 ### Testing
 
