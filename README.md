@@ -57,12 +57,14 @@ In relation to Unitys Scripting API the camera system utilises quaternion values
 The access modifers also function in conjunction with Unitys software, meaning that all variables identified as Public can be accessed via the inspector, allowing the clamp angle, sensitivity, speed, etc. to be changed without the requirement of going into Visual studios.
 
 
+Unity also includes pre-set colliders and rigid bodys, which were applied in order to simulate physics and collision, ensuring that the player did not Phase through Objects. The collider itself includes its own pre-set classess and is under the Unity Engine API. Although in this aspect
+
+![Alt text](https://github.com/matthewsides/Study-of-APIs?raw=true "Optional Title")
 
 
 
 
 
-Unity also includes pre-set colliders and rigid bodys, which in order to effciently 
 
 
 
