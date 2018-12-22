@@ -77,7 +77,7 @@ The animations and objects were rigged to humanoid and intergrated through using
 White Box - This form of testing refers to testing the functionality being aware of the internal structure.This was used to determine any issues in regards to functionality and allowed for fixes.
 
 |Test Reference No.|Test Description | Type of Test | Expected Result | Observed Result |
-|------------------|--------------|-----------------|-----------------|
+|---|---------------|--------------|-----------------|-----------------|
 |1. | API Imported correctly| White Box |The Scripting API (Unity Engine) defined at the start of the code should not display any errors in either the console or visual studios C# code upon using its features (classes and functions). | Passed - The API was successfully imported and its features functional. |
 |2.      |
 |3A.     |
