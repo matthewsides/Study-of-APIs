@@ -105,8 +105,10 @@ Black Box - This testing relates to using user's whom know nothing about the int
 issue of player model follwoing camera on y axis and causing unnatural movement caused by the fix in the white box test.
 
 ### Improvements
-Following the  black and white box tests and anaylising the feedback it was clear that there was an issue pertaining to player object rotation, therefore it was devised to utilise the cameras pre-coded rotation 
-Camera was fixed so that the player object no longer follows the camera on the Y axis causing unatural poses, though an additional feature that can be implemented is offset to make the player object movement seem less unatural and janky.
+Following the  black and white box tests and anaylising the feedback it was clear that there was an issue pertaining to player object rotation. Therefore it was devised to utilise the cameras pre-coded localrotation variable which returned the quaternion euler angles values based on the Y,X and Z axis,through attaching the same values the camera uses for rotation the player object was supposed to turn based on where the camera was looking. However after this fix for the White box test carried out, the Black box tests carried out provided information seeming to show that although the issue of player rotation had been fixed another issue relating to the player appeared. This issue related to the playermodel following the camera on the Y axis, meaning that if the player looked up the model would also change orientation looking unnatural as the models feet were no longer connected to the floor which logically is possible. 
+
+
+
 
 Biblography
 
