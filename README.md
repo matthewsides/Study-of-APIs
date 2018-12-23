@@ -83,7 +83,7 @@ White Box - This form of testing refers to testing the functionality being aware
 |---|---------------|--------------|-----------------|-----------------|
 |1. | API Imported correctly| White Box |The Scripting API (Unity Engine) defined at the start of the code should not display any errors in either the console or visual studios C# code upon using its features (classes and functions). | Passed - The API was successfully imported and its features functional. |
 |2A. | Camera is assigned and follows a game object| White Box | Camera should move towards the assigned object regardless of its position. | Failed - The Camera appears to position itself in a position not relative to the game object, remaining static.
-|2B.| Camera is assigned and follows a game object | White Box |Camera should position itself in view of the game object and follow it. | Passed - The issue stemmed from the empty object which is used as the empty object not being in the wrong position in the Hierachy and in the scene view. |
+|2B.| Camera is assigned and follows a game object | White Box |Camera should position itself in view of the game object and follow it. | Passed - The issue stemmed from the empty object which is used as the empty object not being in the right position in the Hierachy and in the scene view. |
 |3.| Key press triggers action | White Box | Upon pressing a key which is pre-mapped the player should show output | Passed - Upon pressing the pre-mapped button, in this instance 'W' the player did show output, displaying a run animation and moving forward. |
 |4. | Camera collision detection | White Box | The Camera should collide with objects avoiding clipping. | Passed - The camera upon contact with other objects pushes the camera away from the object, though there is still slight clipping which in future can be rectified by hiding the mesh of certain or all objects upon contact. |
 |5. |Camera occlusion detection | White Box | If the player object is out of the camera view the camera should zoom in towards the character, moving back to its original position when the camera is no longer obscured. | Passed - The Camera upon losing sight of the character attempts to move the camera closer to the player to ensure that the player view is not obscured, whilst the camera also zooms in upon collision with objects. |
@@ -115,6 +115,8 @@ A clamp was also considered and tested for the cameras Y axis making it impossib
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaRF.png?raw=true "Optional Title")
 
 
+Further Improvements based on the white and black box testing included fixing the Cameras positioning which stemmed from the empty object which is used as the empty object not being in the right position in the Hierachy and in the scene view. This entailed a simple alteration to the hierachy and re-positioning of the empty game object the camera is using as a basis to follow (using as a reference for the position and distance between the camera and player character).
+
 
 Biblography
 
@@ -122,7 +124,7 @@ Beal. Vangie, (No date). API - application program interface. Available at: http
 
 Cooper. Jackason, (2017). How to generate a random number. Available at:https://www.pythoncentral.io/how-to-generate-a-random-number-in-python/ [Accessed: 19/11/2018].
 
-Cplusplus.com, (no dtae). Function Rand. Available at: http://www.cplusplus.com/reference/cstdlib/rand/ {Accessed: 19/11/2018].
+Cplusplus.com, (no date). Function Rand. Available at: http://www.cplusplus.com/reference/cstdlib/rand/ {Accessed: 19/11/2018].
 
 Oracle.com (1997, 2018).Class Random. Available at: https://docs.oracle.com/javase/8/docs/api/java/util/Random.html [Accessed: 19/11/2018].
 
