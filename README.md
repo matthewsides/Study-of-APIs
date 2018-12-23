@@ -31,45 +31,45 @@ Prisma is a conceptual third person shooter or action game, formulated around th
 With regards to platform or system compatability, the current plans for the game entail developing it to be playable only on PC compatible computers as a desktop application.This is primarily due to time contraints, although the 'Prisma' will be controller compatible, meaning that the game can be played with a controller in addition to the keyboard and mouse, catering to those who usually play games via console.
 
 
-Images below detail the conceptual designs for the games UI, opting to garner inspiration from the franchise Halo a critically acclaimed video game series. 
+Images below detail the conceptual designs for the games UI, opting to garner inspiration from the franchise Halo, a critically acclaimed video game series. 
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/Menu_Alternate.png?raw=true "Optional Title")
 
-The first design (shown above) illustrates a menu in which the camera would be in constant motion,looping around and following a mapped path in which the start and end would meet, rather than manual transformation forcing the camera to a specific position. The reason behind opting to use a connected path rather than a line which upon completion teleports the camera back to the start is to give it a smoother transistion.
+The first design (shown above) illustrates a menu in which the camera would be in constant motion,looping around and following a mapped path in which the start and end would meet, rather than manual transformation forcing the camera to a specific position. The reason behind opting to use a connected path rather than a line which upon completion teleports the camera back to the start, is to give it a smoother transistion.
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/Menu.png?raw=true "Optional Title")
 
 This wireframe (shown above) is the second iteration of the menu, used to diversify the options in regards to menu layout and functionality.
  
 ### API and Development enviroment for an Application 
-For the purpose of this project, the API that was decided upon was the scripting API provided by Unity (Unity,2018). Unitys Scripting API pertaining to various API's (UnityEditor, UnityEngine, Unity) grouped by namespaces. The central API being used for the development is the Unity Engine, enabling access to features that can support the development and formulation of scripts.
+For the purpose of this project, the API that was decided upon was the scripting API provided by Unity (Unity,2018). Unity's Scripting API pertaining to various API's (UnityEditor, UnityEngine, Unity) grouped by namespaces. The central API being used for the development is the Unity Engine, enabling access to features that can support the development and formulation of scripts.
 
-Following the choice of API leads into the choice of the development enviroment, as the API is relative to the Unity engine it only makes sense to use Unity. The inconnectivity of the API and development enviroment was the main drive behind utilising both.In addition to Unitys intuitive interface, access to numerous turtorials and vast amount of tools and API's (free scripts) avaliable. Although Unity was not the only development enviroment taken into consideration with the Unreal engine,a complete suite of tools developed by Epic Games used primarily for the development of applications, also a possibility (Unreal Engine, 2004-2018). Though due to the Unreal Engines sophisticated interface that doesn’t facilitate ease of use, lack of turtorials, Unitys improved graphics and lighting system  brought about through Unitys 2018f update and own experience using Unity, was eventually decided upon.
+Following the choice of API, leads into the choice of the development enviroment, as the API is relative to the Unity engine it only makes sense to use Unity. The inconnectivity of the API and development enviroment was the main drive behind utilising both. In addition to Unitys intuitive interface, access to numerous turtorials and vast amount of tools and API's (free scripts) are avaliable. Although Unity was not the only development environment taken into consideration, with the Unreal Engine, a complete suite of tools developed by Epic Games used primarily for the development of applications, also a possibility (Unreal Engine, 2004-2018). Though due to the Unreal Engines sophisticated interface, that does not facilitate ease of use and lack of turtorials, Unitys improved graphics and lighting system,  brought about through Unitys 2018f update, and own experience using Unity, Unity was eventually decided upon.
 
 ### Implementation
 
-An iteration of the game was developed, as seen below.This prototype includes object collision, movement and a prototype camera.
+An iteration of the game was developed, as seen below. This prototype includes object collision, movement and a prototype camera.
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaTP.png?raw=true "Optional Title")
 
-In relation to Unitys Scripting API the camera system utilises quaternion values and euler angles to represent the rotation and return the orientation (rigidbody) of the camera clamping the view based on private predefined values.
+In relation to Unitys Scripting API, the camera system utilises quaternion values and euler angles to represent the rotation and return the orientation (rigidbody) of the camera clamping the view based on private predefined values.
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/CameraClampEX.png?raw=true "Optional Title")
 
-The access modifers also function in conjunction with Unitys software, meaning that all variables identified as Public can be accessed via the inspector, allowing the clamp angle, sensitivity, speed, etc. to be changed without the requirement of going into Visual studios.
+The access modifers also function in conjunction with Unity's software, meaning that all variables identified as Public can be accessed via the inspector, allowing the clamp angle, sensitivity, speed, etc. to be changed without the requirement of going into visual studios.
 
 <img src="https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaIV.png" width="200" height="400">
 
-Further delving into the ideology behind the camera system, an empty game object is attached to the playerobject, this is used as reference for the camera in regards to what it should follow.The 'Transform target = CameraFollowObj.transform;' line sets the object to follow, whilst 'float step = CameraMoveSpeed * Time.deltaTime;' and 'transform.position = Vector3.MoveTowards(transform.position, target.position, step);' moves the camera to the game object that is set as the target.
+Further delving into the ideology behind the camera system, an empty game object is attached to the playerobject, this is used as reference for the camera in regards to what it should follow. The 'Transform target = CameraFollowObj.transform;' line sets the object to follow, whilst 'float step = CameraMoveSpeed * Time.deltaTime;' and 'transform.position = Vector3.MoveTowards(transform.position, target.position, step);' moves the camera to the game object that is set as the target.
 
 
-While the collision aspect of the camera applies an occolusion detection system that zooms the camera in upon camera obstruction to ensure that the player character is always in view.Another aspect or element that is set to be implemented is upon collision with an object the mesh shall turn invisible, this should eliminate object clipping and is a mechanic inspired by a feature in the batman game franchise.
+While the collision aspect of the camera applies an occolusion detection system that zooms the camera in upon camera obstruction to ensure that the player character is always in view. Another aspect or element that is set to be implemented is upon collision with an object the mesh shall turn invisible, this should eliminate object clipping and is a mechanic inspired by a feature in the batman game franchise.
 
 Unity also includes pre-set colliders and rigid bodys, which were applied in order to simulate physics and collision, ensuring that the player did not Phase through Objects. The collider itself includes its own pre-set classess and is under the Unity Engine API. Although in this aspect no code has currently been used for collision, opting to use Unitys in-built collision detection system as a placeholder until further development.
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaEV.png?raw=true "Optional Title")
 
-The animations and objects were rigged to humanoid and intergrated through using Unity's Animator, which is an inbuilt tool and apart of Unity's Engine API, calling the animator in Visual studios to return a value depending on whether a key has been pressed using a trigger (event) system.
+The animations and objects were rigged to humanoid and intergrated through using Unity's Animator, which is an inbuilt tool and apart of Unity's Engine API, calling the animator in visual studios to return a value depending on whether a key has been pressed using a trigger (event) system.
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaAC.png?raw=true "Optional Title")
 
@@ -77,16 +77,16 @@ The animations and objects were rigged to humanoid and intergrated through using
 
 ### Testing
 
-White Box - This form of testing refers to testing the functionality being aware of the internal structure.This was used to determine any issues in regards to functionality and allowed for fixes.
+White Box - This form of testing refers to testing the functionality being aware of the internal structure. This was used to determine any issues in regards to functionality and allowed for fixes.
 
 |Test Reference No.|Test Description | Type of Test | Expected Result | Observed Result |
 |---|---------------|--------------|-----------------|-----------------|
 |1. | API Imported correctly| White Box |The Scripting API (Unity Engine) defined at the start of the code should not display any errors in either the console or visual studios C# code upon using its features (classes and functions). | Passed - The API was successfully imported and its features functional. |
-|2A. | Camera is assigned and follows a game object| White Box | Camera should move towards the assigned object regardless of its position. | Failed - The Camera appears to position itself in a position not relative to the game object, remaining static.
+|2A. | Camera is assigned and follows a game object| White Box | Camera should move towards the assigned object regardless of its position. | Failed - The camera appears to position itself in a position not relative to the game object, remaining static.
 |2B.| Camera is assigned and follows a game object | White Box |Camera should position itself in view of the game object and follow it. | Passed - The issue stemmed from the empty object which is used as the empty object not being in the right position in the Hierachy and in the scene view. |
-|3.| Key press triggers action | White Box | Upon pressing a key which is pre-mapped the player should show output | Passed - Upon pressing the pre-mapped button, in this instance 'W' the player did show output, displaying a run animation and moving forward. |
-|4. | Camera collision detection | White Box | The Camera should collide with objects avoiding clipping. | Passed - The camera upon contact with other objects pushes the camera away from the object, though there is still slight clipping which in future can be rectified by hiding the mesh of certain or all objects upon contact. |
-|5. |Camera occlusion detection | White Box | If the player object is out of the camera view the camera should zoom in towards the character, moving back to its original position when the camera is no longer obscured. | Passed - The Camera upon losing sight of the character attempts to move the camera closer to the player to ensure that the player view is not obscured, whilst the camera also zooms in upon collision with objects. |
+|3.| Key press triggers action | White Box | Upon pressing a key which is pre-mapped the player should show output | Passed - Upon pressing the pre-mapped button, in this instance 'W', the player did show output, displaying a run animation and moving forward. |
+|4. | Camera collision detection | White Box | The camera should collide with objects avoiding clipping. | Passed - The camera upon contact with other objects pushes the camera away from the object, though there is still slight clipping which in future can be rectified by hiding the mesh of certain or all objects upon contact. |
+|5. |Camera occlusion detection | White Box | If the player object is out of the camera view the camera should zoom in towards the character, moving back to its original position when the camera is no longer obscured. | Passed - The camera upon losing sight of the character, attempts to move the camera closer to the player to ensure that the player view is not obscured, whilst the camera also zooms in upon collision with objects. |
 |6A.| Player object pivots or rotates based on camera direction | White Box |The player model or object should turn based on the cameras rotation. | Failed - The player model did not rotate based on where the camera is looking. |
 |6B.| Player object pivots or rotates based on camera direction | White Box | The player model should turn inconjunction to where the camera is facing. | Passed - This was fixed through setting the assigned player object to follow the same parameters or rotation set for the camera. |
 
@@ -94,8 +94,8 @@ Black Box - This testing relates to using user's whom know nothing about the int
 
 |Tester: Luke Bruni|Test Reference No.|Test Description | Type of Test | Expected Result | Observed Result |
 |------------------|--------|----------|---------|--------------------|------------------------|
-|                  |1A.      | Camera  |  Black box | The Camera should clearly show the player at all times and be able to follow and keep up with the player. | Failed - The Camera followed the player with the player in view the majority of the time, however  the camera failed to keep up upon continously running forward. |
-|                  |1B.      | Camera | Black box | The Camera should clearly show the player at all times and be able to follow and keep up with the player. | Passed - The Camera was able to keep the player in clear view, following the player and keeping up with the player pacing. |
+|                  |1A.      | Camera  |  Black box | The camera should clearly show the player at all times and be able to follow and keep up with the player. | Failed - The camera followed the player with the player in view the majority of the time however, the camera failed to keep up upon continously running forward. |
+|                  |1B.      | Camera | Black box | The camera should clearly show the player at all times and be able to follow and keep up with the player. | Passed - The camera was able to keep the player in clear view, following the player and keeping up with the player pacing. |
 |                  |2.      | Player Movement-Forward | Black box | The player should move forward upon giving input. | Passed -  The player successfully moves foward after giving input. |
 |                  |3A.     | Player rotation | Black box | The player should look and move based on where the camera is looking.| Failed - Though the player moved and looked based on the cameras direction, the player also followed the cameras rotation on the Y axis causing it to look unnatural.
 |                  |3B.     | Player fixed rotation | Black box | The player should look and move based on where the camera is looking, with the player rotation fixed to the X axis.| Passed -  The player no longer follows and rotates with the camera upon looking up or down. |
@@ -104,7 +104,7 @@ Black Box - This testing relates to using user's whom know nothing about the int
 
 
 ### Improvements
-Following the  black and white box tests and anaylising the feedback it was clear that there was an issue pertaining to player object rotation. Therefore it was devised to utilise the cameras pre-coded localrotation variable which returned the quaternion euler angles values based on the Y,X and Z axis,through attaching the same values the camera uses for rotation the player object was supposed to turn based on where the camera was looking. However after this fix for the White box test carried out, the Black box tests carried out provided information seeming to show that although the issue of player rotation had been fixed another issue relating to the player appeared. This issue related to the playermodel following the camera on the Y axis, meaning that if the player looked up the model would also change orientation looking unnatural as the models feet were no longer connected to the floor which logically is possible. Through freezing the players rotation on certain axis using the rigid body, appeared to fix the issue though only temporary as a long term fix pertaining to locking the objects pivot on the Y axis has been identified and will be implemented in a future update. The reason behind why this current fix is ineligable is due to the fact that the player object in future updates will need to be able to aim up with a gun to shoot targets in high places and this fix currently restricts this.Images of the issue can be seen below:
+Following the  black and white box tests and anaylising the feedback, it was clear that there was an issue pertaining to player object rotation. Therefore it was devised to utilise the cameras pre-coded local rotation variable which returned the quaternion euler angles values based on the Y, X and Z axis, through attaching the same values the camera uses for rotation the player object was supposed to turn based on where the camera was looking. However, after this fix for the White box test carried out, the Black box tests carried out provided information seeming to show that although the issue of player rotation had been fixed, another issue relating to the player appeared. This issue related to the player model following the camera on the Y axis, meaning that if the player looked up the model would also change orientation, looking unnatural as the models feet were no longer connected to the floor which logically is not possible. Through freezing the players rotation on certain axis using the rigid body, appeared to fix the issue, though only temporary as a long term fix pertaining to locking the objects pivot on the Y axis has been identified and will be implemented in a future update. The reason behind why this current fix is ineligable, is due to the fact that the player object in future updates will need to be able to aim up with a gun to shoot targets in high places and this fix currently restricts this. Images of the issue can be seen below:
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaTestIssue.png?raw=true "Optional Title")
 
@@ -115,9 +115,9 @@ A clamp was also considered and tested for the cameras Y axis making it impossib
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaRF.png?raw=true "Optional Title")
 
 
-Further Improvements based on the white and black box testing included fixing the Cameras positioning which stemmed from the empty object which is used as the empty object not being in the right position in the Hierachy and in the scene view. This entailed a simple alteration to the hierachy and re-positioning of the empty game object the camera is using as a basis to follow (using as a reference for the position and distance between the camera and player character).
+Further Improvements based on the white and black box testing,included fixing the cameras positioning which stemmed from the empty object, which is used as the empty object not being in the right position in the Hierachy and in the scene view. This entailed a simple alteration to the hierachy and re-positioning of the empty game object the camera is using as a basis to follow (using as a reference for the position and distance between the camera and player character).
 
-Upon implementing theses improvements and fixing the issues that were noted during both forms of testing, other changes that could be made to the current features in a future update pertains to hiding the mesh upon contact with the camera as a better way to avoid clipping and stop occolusion. Whilst using code to lock the players Y axis with the objects pivot and creating an offset to make the player rotation less smooth and more realistic (natural) are more changes that could be implemented in a future update to further improve on the current application (game).
+Upon implementing these improvements and fixing the issues that were noted during both forms of testing, other changes that could be made to the current features in a future update pertains to hiding the mesh upon contact with the camera as a better way to avoid clipping and stop occolusion. Whilst using code to lock the players Y axis with the objects pivot and creating an offset to make the player rotation less smooth and more realistic (natural), are more changes that could be implemented in a future update to further improve on the current application (game).
 
 ## Biblography
 
