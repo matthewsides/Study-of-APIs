@@ -105,7 +105,7 @@ Black Box - This testing relates to using user's whom know nothing about the int
 issue of player model follwoing camera on y axis and causing unnatural movement caused by the fix in the white box test.
 
 ### Improvements
-
+Following the  black and white box tests and anaylising the feedback it was clear that there was an issue pertaining to player object rotation, therefore it was devised to utilise the cameras pre-coded rotation 
 Camera was fixed so that the player object no longer follows the camera on the Y axis causing unatural poses, though an additional feature that can be implemented is offset to make the player object movement seem less unatural and janky.
 
 Biblography
