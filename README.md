@@ -117,7 +117,7 @@ A clamp was also considered and tested for the cameras Y axis making it impossib
 
 Further Improvements based on the white and black box testing included fixing the Cameras positioning which stemmed from the empty object which is used as the empty object not being in the right position in the Hierachy and in the scene view. This entailed a simple alteration to the hierachy and re-positioning of the empty game object the camera is using as a basis to follow (using as a reference for the position and distance between the camera and player character).
 
-Upon implementing theses improvements and fixing the issues that were noted during both forms of testing, other changes that could be made to the current features in a future update pertain to hiding the mesh upon contact with the camera as a better way to avoid clipping and stop occolusion. Whilst using code to lock the players Y axis with the objects pivot and creating an offset to make the player rotation less smooth and more realistic (natural) are more changes that could be implemented in a future update to further improve on the current application (game).
+Upon implementing theses improvements and fixing the issues that were noted during both forms of testing, other changes that could be made to the current features in a future update pertains to hiding the mesh upon contact with the camera as a better way to avoid clipping and stop occolusion. Whilst using code to lock the players Y axis with the objects pivot and creating an offset to make the player rotation less smooth and more realistic (natural) are more changes that could be implemented in a future update to further improve on the current application (game).
 
 ## Biblography
 
