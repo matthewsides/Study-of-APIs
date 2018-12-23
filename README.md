@@ -93,13 +93,13 @@ White Box - This form of testing refers to testing the functionality being aware
 Black Box - This testing relates to using user's whom know nothing about the internal structure of the code, with the functions being tested purely based on visual. 
 
 |Tester: Luke Bruni|Test Reference No.|Test Description | Type of Test | Expected Result | Observed Result |
-|------------------|--------|---------|---------|--------------------|------------------------|
-|                  |1.      |
-|                  |2.      |
-|                  |3A.     |
-|                  |3B.     |
-|                  |4.      |
-|                  |5.      |
+|------------------|--------|----------|---------|--------------------|------------------------|
+|                  |1.      | 
+|                  |2.      | Player Movement-Forward | Black box | The player should move forward upon giving input. | Passed -  The player successfully moves foward after giving input.
+|                  |3A.     | Player rotation | Black box | The player should look and move based on where the camera is looking.| Success/Failed - Though the player moved and looked based on the cameras direction, the player also followed the cameras rotation on the Y axis causing it to look unnatural.
+|                  |3B.     | Player fixed rotation | Black box | The player should look and move based on where the camera is looking, with the player rotation fixed to the X axis.| Passed -  The player no longer follows and rotates with the camera upon looking up or down. |
+|                  |4.      | Player Collision  | Black box | Player should not phase through objects | Passed - The player does not phase through objects upon contact.
+|                  |5.      | 
 
 issue of player model follwoing camera on y axis and causing unnatural movement caused by the fix in the white box test.
 
