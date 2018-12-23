@@ -118,7 +118,7 @@ A clamp was also considered and tested for the cameras Y axis making it impossib
 Further Improvements based on the white and black box testing included fixing the Cameras positioning which stemmed from the empty object which is used as the empty object not being in the right position in the Hierachy and in the scene view. This entailed a simple alteration to the hierachy and re-positioning of the empty game object the camera is using as a basis to follow (using as a reference for the position and distance between the camera and player character).
 
 
-Biblography
+## Biblography
 
 Beal. Vangie, (No date). API - application program interface. Available at: https://www.webopedia.com/TERM/A/API.html [Accessed: 17/11/2018].
 
