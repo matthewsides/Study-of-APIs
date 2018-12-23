@@ -94,12 +94,13 @@ Black Box - This testing relates to using user's whom know nothing about the int
 
 |Tester: Luke Bruni|Test Reference No.|Test Description | Type of Test | Expected Result | Observed Result |
 |------------------|--------|----------|---------|--------------------|------------------------|
-|                  |1.      | 
+|                  |1A.      | Camera  |  Black box | The Camera should clearly show the player at all times and be able to follow and keep up with the player. | Failed - The Camera followed the player with the player in view the majority of the time, however  the camera failed to keep up upon continously running forward. |
+|                  |1B.      | Camera | Black box | The Camera should clearly show the player at all times and be able to follow and keep up with the player. | Passed - The Camera was able to keep the player in clear view, following the player and keeping up with the player pacing. |
 |                  |2.      | Player Movement-Forward | Black box | The player should move forward upon giving input. | Passed -  The player successfully moves foward after giving input. |
-|                  |3A.     | Player rotation | Black box | The player should look and move based on where the camera is looking.| Success/Failed - Though the player moved and looked based on the cameras direction, the player also followed the cameras rotation on the Y axis causing it to look unnatural.
+|                  |3A.     | Player rotation | Black box | The player should look and move based on where the camera is looking.| Failed - Though the player moved and looked based on the cameras direction, the player also followed the cameras rotation on the Y axis causing it to look unnatural.
 |                  |3B.     | Player fixed rotation | Black box | The player should look and move based on where the camera is looking, with the player rotation fixed to the X axis.| Passed -  The player no longer follows and rotates with the camera upon looking up or down. |
-|                  |4.      | Player Collision  | Black box | Player should not phase through objects | Passed - The player does not phase through objects upon contact.
-|                  |5.      | 
+|                  |4.      | Player Collision  | Black box | Player should not phase through objects | Passed - The player does not phase through objects upon contact. |
+
 
 issue of player model follwoing camera on y axis and causing unnatural movement caused by the fix in the white box test.
 
