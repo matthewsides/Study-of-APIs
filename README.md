@@ -60,7 +60,10 @@ The access modifers also function in conjunction with Unitys software, meaning t
 
 <img src="https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaIV.png" width="200" height="400">
 
-Further delving into the ideology behind the camera system, an empty game object is attached to the playerobject, this is used as reference for the camera in regards to what it should follow. Whilst the collision aspect of the camera applies an occolusion detection system that zooms the camera in upon camera obstruction to ensure that the player character is always in view.Another aspect or element that is set to be implemented is upon collision with an object the mesh shall turn invisible, this should eliminate object clipping and is a mechanic inspired by a feature in the batman game franchise.
+Further delving into the ideology behind the camera system, an empty game object is attached to the playerobject, this is used as reference for the camera in regards to what it should follow.The 'Transform target = CameraFollowObj.transform;' line sets the object to follow, whilst 'float step = CameraMoveSpeed * Time.deltaTime;' and 'transform.position = Vector3.MoveTowards(transform.position, target.position, step);' moves the camera to the game object that is set as the target.
+
+
+While the collision aspect of the camera applies an occolusion detection system that zooms the camera in upon camera obstruction to ensure that the player character is always in view.Another aspect or element that is set to be implemented is upon collision with an object the mesh shall turn invisible, this should eliminate object clipping and is a mechanic inspired by a feature in the batman game franchise.
 
 Unity also includes pre-set colliders and rigid bodys, which were applied in order to simulate physics and collision, ensuring that the player did not Phase through Objects. The collider itself includes its own pre-set classess and is under the Unity Engine API. Although in this aspect no code has currently been used for collision, opting to use Unitys in-built collision detection system as a placeholder until further development.
 
@@ -79,11 +82,12 @@ White Box - This form of testing refers to testing the functionality being aware
 |Test Reference No.|Test Description | Type of Test | Expected Result | Observed Result |
 |---|---------------|--------------|-----------------|-----------------|
 |1. | API Imported correctly| White Box |The Scripting API (Unity Engine) defined at the start of the code should not display any errors in either the console or visual studios C# code upon using its features (classes and functions). | Passed - The API was successfully imported and its features functional. |
-|2.      |
-|3A.     |
-|3B.     |
-|4.      |
-|5.      |
+|2A. | Camera is assigned and follows a game object| White Box | Camera should move towards the assigned object regardless of its position. | Failed - The Camera appears to position itself in a position not relative to the game object, remaining static.
+|2B.| Camera is assigned and follows a game object | White Box |Camera should position itself in view of the game object and follow it. | Passed - The issue stemmed from the empty object which is used as the empty object not being in the wrong position in the Hierachy and in the scene view. |
+|3.|
+|4. |
+|5A.| Player object pivots or rotates based on camera direction | White Box |The player model or object should turn based on the cameras rotation. | Failed - The player model did not rotate based on where the camera is looking. |
+|5B.| Player object pivots or rotates based on camera direction | White Box | The player model should turn inconjunction to where the camera is facing. | Passed - This was fixed through setting the assigned player object to follow the same parameters or rotation set for the camera. |
 
 Black Box - This testing relates to using user's whom know nothing about the internal structure of the code, with the functions being tested purely based on visual. 
 
@@ -98,6 +102,11 @@ Black Box - This testing relates to using user's whom know nothing about the int
 |                  |4.      |
 |                  |5.      |
 
+issue of player model follwoing camera on y axis and causing unnatural movement caused by the fix in the white box test.
+
+### Improvements
+
+Camera was fixed so that the player object no longer follows the camera on the Y axis causing unatural poses, though an additional feature that can be implemented is offset to make the player object movement seem less unatural and janky.
 
 Biblography
 
