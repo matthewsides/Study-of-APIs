@@ -110,8 +110,9 @@ Following the  black and white box tests and anaylising the feedback it was clea
 
 ![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaTestIssue2.png?raw=true "Optional Title")
 
-A clamp was also considered and tested for the cameras Y axis making it impossible to look all the way up or down, thus making it impossible for this issue to occur. However as stated the camera would not be able to move freely thus restricting and constricting user view,whilst it was also possible to see the issue still.
+A clamp was also considered and tested for the cameras Y axis making it impossible to look all the way up or down, thus making it impossible for this issue to occur. However as stated the camera would not be able to move freely thus restricting and constricting user view,whilst it was also possible to see the issue still. This fix was implemented and removed through the addition of the line; 'rotY = Mathf.Clamp(rotY, -clampAngle, clampAngle);', which can be seen in the image below:
 
+![Alt text](https://github.com/matthewsides/Study-of-APIs/blob/master/PrismaRF.png?raw=true "Optional Title")
 
 
 
