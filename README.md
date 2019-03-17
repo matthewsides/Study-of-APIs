@@ -119,6 +119,15 @@ Further Improvements based on the white and black box testing,included fixing th
 
 Upon implementing these improvements and fixing the issues that were noted during both forms of testing, other changes that could be made to the current features in a future update pertains to hiding the mesh upon contact with the camera as a better way to avoid clipping and stop occolusion. Whilst using code to lock the players Y axis with the objects pivot and creating an offset to make the player rotation less smooth and more realistic (natural), are more changes that could be implemented in a future update to further improve on the current application (game).
 
+### API's Used
+Following the development of a prototype for the collective systems that will formulate a finished game and the potentional improvements outlined in the above paragraphs it is necessary to go into more detail into the API's used during development and in the final implementation. 
+
+
+As stated in the API and development enviroment section Unity, the development enviroment used provides a plethora of API's,pre-set components and systems. 
+
+
+The primary API's used in the development of this demo include Unity's built in Physics system which encompassess player gravity and object collision 
+
 ## Biblography
 
 Beal. Vangie, (No date). API - application program interface. Available at: https://www.webopedia.com/TERM/A/API.html [Accessed: 17/11/2018].
