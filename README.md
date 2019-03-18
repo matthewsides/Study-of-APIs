@@ -128,6 +128,9 @@ However there was scripting used for the movement of the player and camera, with
 
 The camera movement also utlises the same scripting API and transform and input functions, however the proccess or calculation is done differently as a target is set for the camera to follow and placed as a child to the player in the hierarchy. Moreover Unitys Mathf library  is also used to clamp the value for the camera rotation using the clamp function inconjunction with quaternion which is used to represent the rotations of both the camera and player.
 
+### How the application could be improved with the use of additional API's
+The current iteration facilitates player input, movement,collision and gravity, however future builds in order to meet the design and direction of this project and improve upon the current build will include Main menu camera movement,AI and shooting. Bullet physics and 
+
 ## Biblography
 
 Beal. Vangie, (No date). API - application program interface. Available at: https://www.webopedia.com/TERM/A/API.html [Accessed: 17/11/2018].
